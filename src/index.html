@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../dist/output.css" rel="stylesheet">
+</head>
+
+<body>
+    <main class="bg-black min-h-screen min-w-full flex items-end flex-col justify-end">
+        <div class="p-8">
+            <h3 id="expression" class="text-2xl text-white justify-end mb-2 flex items-center space-x-4">
+            </h3>
+            <h2 id="input" class="text-6xl text-white font-bold">0</h2>
+        </div>
+
+        <div class="w-full bg-black3 rounded-t-[3.5rem] h-[500px] p-5 grid grid-cols-4 gap-5 ">
+            <button type="button" id="ac" class="p-3 rounded-2xl bg-black2 text-2xl text-center text-green ">AC</button>
+            <button type="button" id="backspace"
+                class="p-3 rounded-2xl bg-black2 text-2xl flex items-center justify-center text-green">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M12 9.75L14.25 12m0 0l2.25 2.25M14.25 12l2.25-2.25M14.25 12L12 14.25m-2.58 4.92l-6.375-6.375a1.125 1.125 0 010-1.59L9.42 4.83c.211-.211.498-.33.796-.33H19.5a2.25 2.25 0 012.25 2.25v10.5a2.25 2.25 0 01-2.25 2.25h-9.284c-.298 0-.585-.119-.796-.33z" />
+                </svg>
+            </button>
+            <button type="button" id="persen"
+                class="p-3 rounded-2xl bg-black2 text-2xl text-center text-green ">%</button>
+            <button type="button" id="bagi" class="p-3 rounded-2xl bg-black2 text-2xl text-center text-red ">/</button>
+            <button type="button" id="7" class="p-3 rounded-2xl bg-black2 text-2xl text-center text-white ">7</button>
+            <button type="button" id="8" class="p-3 rounded-2xl bg-black2 text-2xl text-center text-white ">8</button>
+            <button type="button" id="9" class="p-3 rounded-2xl bg-black2 text-2xl text-center text-white ">9</button>
+            <button type="button" id="kali" class="p-3 rounded-2xl bg-black2 text-2xl text-center text-red ">X</button>
+            <button type="button" id="4" class="p-3 rounded-2xl bg-black2 text-2xl text-center text-white ">4</button>
+            <button type="button" id="5" class="p-3 rounded-2xl bg-black2 text-2xl text-center text-white ">5</button>
+            <button type="button" id="6" class="p-3 rounded-2xl bg-black2 text-2xl text-center text-white ">6</button>
+            <button type="button" id="min" class="p-3 rounded-2xl bg-black2 text-2xl text-center text-red ">-</button>
+            <button type="button" id="1" class="p-3 rounded-2xl bg-black2 text-2xl text-center text-white ">1</button>
+            <button type="button" id="2" class="p-3 rounded-2xl bg-black2 text-2xl text-center text-white ">2</button>
+            <button type="button" id="3" class="p-3 rounded-2xl bg-black2 text-2xl text-center text-white ">3</button>
+            <button type="button" id="plus" class="p-3 rounded-2xl bg-black2 text-2xl text-center text-red ">+</button>
+            <button type="button"
+                class="p-3 rounded-2xl bg-black2 text-2xl flex items-center justify-center text-white ">
+            </button>
+            <button type="button" id="0" class="p-3 rounded-2xl bg-black2 text-2xl text-center text-white ">0</button>
+            <button type="button" id="koma"
+                class="p-3 rounded-2xl bg-black2 text-2xl text-center text-white ">,</button>
+            <button type="button" id="equal" class="p-3 rounded-2xl bg-black2 text-2xl text-center text-red ">=</button>
+        </div>
+    </main>
+    <script src="./script.js"></script>
+</body>
+
+</html>
